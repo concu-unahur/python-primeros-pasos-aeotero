@@ -23,6 +23,6 @@ class Unthread(threading.Thread):
         time.sleep(1)
         logging.info("finalizando desde clase")
 
-t2 = UnThread() # no me lo levanta , dice que no esta definido , como si hubuese que definirlo
+t2 = Unthread() # Para hacer un objeto nuevo es RECOMENDADO copiar y pegar nombre de la clase, XQ ? no se , pero anda. 
 t2.start() 
 #Esto se ejecuta llamando al run de la clase .Si no hay run , no hace nada.
