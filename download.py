@@ -8,6 +8,7 @@ from tiempo import Contador
 logging.basicConfig(format='%(asctime)s.%(msecs)03d [%(threadName)s] - %(message)s', datefmt='%H:%M:%S', level=logging.INFO)
 
 
+
 img_urls = [
     'https://images.unsplash.com/photo-1516117172878-fd2c41f4a759',
     'https://images.unsplash.com/photo-1532009324734-20a7a5813719',
@@ -36,6 +37,7 @@ def bajar_imagen(img_url):
 
 
 tiempo = Contador()
+tiempo2 = Contador()
 
 tiempo.iniciar()
 
